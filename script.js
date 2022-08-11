@@ -18,7 +18,7 @@ xhr.onreadystatechange = () => {
         const objectResponse = JSON.parse(xhr.responseText)
         console.log(objectResponse)
         var output = ''
-        for (let i = 0; i < 25; i++) {
+        for (let i = 0; i < 21; i++) {
             output += `
             <div class="projects-grid">
     <div class="card">
@@ -36,7 +36,7 @@ xhr.onreadystatechange = () => {
 
         }
 
-        
+
         document.querySelector('.projects-grid').innerHTML = output
     }
 }
