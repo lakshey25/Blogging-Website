@@ -21,13 +21,13 @@ xhr.onreadystatechange = () => {
         for (let i = 0; i < 21; i++) {
             output += `
             <div class="projects-grid">
-    <div class="card">
+            <div class="card">
             
-     <div class="desc">
-        <h3 class="project-tile">${objectResponse[i].userId}</h3>
-        <p> ${objectResponse[i].id}</p>
+            <div class="desc">
+            <h3 class="project-tile">${objectResponse[i].userId}</h3>
+            <p> ${objectResponse[i].id}</p>
           
-        <p>${objectResponse[i].body}</p>
+            <p>${objectResponse[i].body}</p>
       </div>
       </div>
     </div>
